@@ -6,13 +6,7 @@ body {
     max-width: 200ch;
     margin-inline: auto;
     padding: 25px;
-  }
-
-body nav {
-    ul {
-      display: contents;
-    }
-    li {
+    ul li {
       display: contents;
     }
   }
