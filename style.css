@@ -29,7 +29,5 @@ body {
 
   nav {
     margin-bottom: 5ch;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom: oklch(80% 3% 200);
+    border-bottom: 1px solid oklch(80% 3% 200);
   }
