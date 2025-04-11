@@ -6,10 +6,14 @@ body {
     max-width: 200ch;
     margin-inline: auto;
     padding: 25px;
-    nav ul {
-      list-style: none;
-    }
-    nav ul li {
-      display: contents;
-    }
+   
+   
+  }
+
+  nav ul {
+    list-style: none;
+  }
+
+  nav ul li {
+    display: contents;
   }
