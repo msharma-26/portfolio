@@ -7,3 +7,12 @@ body {
     margin-inline: auto;
     padding: 25px;
   }
+
+  nav {
+    ul {
+      display: contents;
+    }
+    li {
+      display: contents;
+    }
+  }
