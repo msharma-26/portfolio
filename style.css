@@ -13,6 +13,7 @@ body {
   nav ul {
     list-style: none;
     display: flex;
+    text-decoration: none;
   }
 
   nav ul li {
@@ -21,4 +22,14 @@ body {
   
   nav a {
     flex: 1; 
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  nav {
+    margin-bottom: 5ch;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom: oklch(80% 3% 200);
   }
