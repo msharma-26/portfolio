@@ -79,3 +79,16 @@ div.projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
+
+article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+article h2 {
+  margin: 0;
+}
