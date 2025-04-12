@@ -37,13 +37,11 @@ body {
   }
 
   nav a.current {
-    margin-bottom: 5ch;
     border-bottom: 0.4em solid oklch(80% 3% 200);
     padding-bottom: 0.1em;
   }
 
   nav a:hover {
-    border-bottom: margin-bottom: 5ch;
     border-bottom: 0.4em solid var(--color-accent);
     padding-bottom: 0.1em;;
   }
