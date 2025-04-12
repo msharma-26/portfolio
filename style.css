@@ -31,3 +31,9 @@ body {
     margin-bottom: 5ch;
     border-bottom: 1px solid oklch(80% 3% 200);
   }
+
+  nav a.current {
+    margin-bottom: 5ch;
+    border-bottom: 0.4em solid oklch(80% 3% 200);
+    padding-bottom: 0.1em;
+  }
