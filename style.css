@@ -2,6 +2,24 @@
   --color-accent: oklch(0.7 0.1727 295.94);
   accent-color: var(--color-accent);
 }
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+  margin: 0.5em 0; /* Optional: give them breathing room */
+}
+
+/* Emphasize h1 clearly */
+h1 {
+  font-size: 400%;
+}
+
+/* Optional: scale other heading levels too */
+h2 {
+  font-size: 200%;
+}
+h3 {
+  font-size: 150%;
+}
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
