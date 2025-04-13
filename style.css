@@ -116,6 +116,25 @@ section h2 {
 }
 
 .resumepage {
-  background-color: lightpink;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.resume {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 2em;
+  border-left: 4px solid; /* base style, color defined below */
+}
+
+.experience {
+  border-color: #2a6acb; /* blue */
+}
+
+.education {
+  border-color: #27ae60; /* green */
+}
+
+.projects {
+  border-color: #f39c12; /* orange */
+}
+
