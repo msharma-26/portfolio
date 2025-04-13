@@ -116,29 +116,3 @@ section h2 {
   color: #cb2a75;
 }
 
-.resumepage {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  min-height: 100vh;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.resume {
-  position: relative;
-  padding-left: 1.5em;
-  margin-bottom: 2em;
-  border-left: 4px solid; /* base style, color defined below */
-}
-
-.experience {
-  border-color: #cb2aad; /* blue */
-}
-
-.education {
-  border-color: #0d803d; /* green */
-}
-
-.projects {
-  border-color: #6c12f3; /* orange */
-}
-
