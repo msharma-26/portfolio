@@ -173,3 +173,6 @@ section h2 {
   padding: 1em;
 }
 
+.resumepg > section {
+  grid-column: 2;
+}
