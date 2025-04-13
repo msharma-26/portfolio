@@ -1,7 +1,6 @@
 :root {
   --color-accent: oklch(0.7 0.1727 295.94);
   accent-color: var(--color-accent);
-  background-color: pink;
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
@@ -118,28 +117,11 @@ section h2 {
 /*want to make color coded vertical bar for resume section */
 
 .resume {
-  background-color: #f9f9f9;
+  background-color: #fce5f1;;
+  border-color:#cb2a75; 
   padding: 1em 1em 1em 1.5em;
   border-left: 4px solid;
   border-radius: 4px;
-}
-
-/* Color-coded bars */
-.experience {
-  border-color: #d46db7;
-  background-color: #f3d9e9; /* Pale pink background */
-}
-
-.education {
-  border-color: #6d96d4; 
-  background-color: #e1e9f6;  
-}
-
-.objective {
-  border-color: #a88ed0; /* soft lavender purple */
-  background-color: #f2ecfa; /* very light lavender */
-
-
 }
 
 /* if code breaks, this is the code that was added to make the vertical nav menu on resume */ 
@@ -147,7 +129,7 @@ section h2 {
   display: grid;
   grid-template-columns: 200px 1fr; /* 200px sidebar, rest for content */
   gap: 2em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Courier New', Courier, monospace
   padding: 2em;
 }
 .sidebar {
@@ -172,7 +154,7 @@ section h2 {
 
 .sidebar a {
   text-decoration: none;
-  color: #2a6acb;
+  color: black;
   font-weight: bold;
 }
 
