@@ -1,7 +1,7 @@
 :root {
   --color-accent: oklch(0.7 0.1727 295.94);
   accent-color: var(--color-accent);
-  background-color: blue;
+  background-color: green;
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
@@ -114,7 +114,7 @@ section h2 {
 
 /*want to make color coded vertical bar for resume section */
 
-.resume-section {
+.resume {
   background-color: #f9f9f9;
   padding: 1em 1em 1em 1.5em;
   border-left: 4px solid;
