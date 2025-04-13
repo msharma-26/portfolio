@@ -89,7 +89,7 @@ textarea {
   /* Make the submit button also span full row */
 button {
     grid-column: 1 / -1;
-    color: var(--color-accent);
+    background-color: var(--color-accent);
   }
 textarea {
   height: 10em;
