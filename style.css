@@ -126,11 +126,20 @@ section h2 {
 
 /* Color-coded bars */
 .experience {
-  border-color: #2a6acb;      /* Blue */
+  border-color: #d46db7;
+  background-color: #f3d9e9; /* Pale pink background */
 }
 
 .education {
-  border-color: #27ae60;      /* Green */
+  border-color: #6d96d4; 
+  background-color: #e1e9f6;  
+}
+
+.objective {
+  border-color: #a88ed0; /* soft lavender purple */
+  background-color: #f2ecfa; /* very light lavender */
+
+
 }
 
 /* if code breaks, this is the code that was added to make the vertical nav menu on resume */ 
