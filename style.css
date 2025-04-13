@@ -1,7 +1,7 @@
 :root {
   --color-accent: oklch(0.7 0.1727 295.94);
   accent-color: var(--color-accent);
-  background-color: pink;
+  background-color: blue;
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
@@ -98,10 +98,15 @@ div.projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
-
+article {
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  gap: 1em;
+}
 article h2 {
   margin: 0;
 }
+
 
 section h2 {
   color: #cb2a75;
