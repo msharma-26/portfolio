@@ -116,6 +116,9 @@ section h2 {
 }
 
 .resumepage {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
