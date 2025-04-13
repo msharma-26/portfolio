@@ -132,3 +132,40 @@ section h2 {
   border-color: #27ae60;      /* Green */
 }
 
+/* if code breaks, this is the code that was added to make the vertical nav menu on resume */ 
+
+.sidebar {
+  position: sticky;
+  top: 1em;
+  height: fit-content;
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-right: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1em;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #2a6acb;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #cb2a75;
+}
+
+/* Resume content */
+.content {
+  padding: 1em;
+}
+
