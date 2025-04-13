@@ -178,10 +178,18 @@ section h2 {
   background-color: #f2e0eb;
 }
 
+.objective h2 {
+  color: #cb2a75;
+}
+
 /* Light Purple Section */
 .education {
   border-color: #d46db7;
   background-color: #f4d6ea;
+}
+
+.education h2 {
+  color: #d46db7;
 }
 
 /* Green Section */
@@ -190,10 +198,18 @@ section h2 {
   background-color: #d6f6e3;
 }
 
+.skills h2 {
+  color: #27ae60;
+}
+
 /* Blue Section */
 .experience{
   border-color: #6d96d4;
   background-color: #e4edfb;
+}
+
+.experience h2 {
+  color: 6d96d4;
 }
 
 /* Muted Purple Section */
@@ -202,8 +218,16 @@ section h2 {
   background-color: #e3d0f9;
 }
 
+.leadership h2 {
+  color: #a44db7
+}
+
 /* Pastel Pink Section */
-.comminication {
-  border-color: #f39c12;
-  background-color: #fdf1e3;
+.communication {
+  border-color: #18a0bf;
+  background-color: #d3f1f7;
+}
+
+.communication h2 {
+  color: #18a0bf; 
 }
