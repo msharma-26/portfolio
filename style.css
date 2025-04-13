@@ -107,3 +107,21 @@ section h2 {
   color: #cb2a75;
 }
 
+/*want to make color coded vertical bar for resume section */
+
+.resume-section {
+  background-color: #f9f9f9;
+  padding: 1em 1em 1em 1.5em;
+  border-left: 4px solid;
+  border-radius: 4px;
+}
+
+/* Color-coded bars */
+.experience {
+  border-color: #2a6acb;      /* Blue */
+}
+
+.education {
+  border-color: #27ae60;      /* Green */
+}
+
