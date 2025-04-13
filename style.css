@@ -117,7 +117,7 @@ section h2 {
 /*want to make color coded vertical bar for resume section */
 
 .resume {
-  background-color: #fce5f1;
+  background-color: white;
   border-color:#cb2a75; 
   padding: 1em 1em 1em 1.5em;
   border-left: 4px solid;
