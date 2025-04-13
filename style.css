@@ -138,3 +138,37 @@ section h2 {
   border-color: #f39c12; /* orange */
 }
 
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1em;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #2a6acb;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #cb2a75;
+}
+
+.content {
+  padding: 2em;
+}
+
