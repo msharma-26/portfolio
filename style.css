@@ -47,6 +47,7 @@ nav a {
     color: inherit;
     text-align: center;
     padding: 0.5em;
+    transition: all 0.3s ease;
   }
 
 nav {
@@ -169,4 +170,40 @@ section h2 {
 
 .resumepg > section {
   grid-column: 2;
+}
+
+/* Pink Section */
+.objective {
+  border-color: #cb2a75;
+  background-color: #f2e0eb;
+}
+
+/* Light Purple Section */
+.education {
+  border-color: #d46db7;
+  background-color: #f4d6ea;
+}
+
+/* Green Section */
+.skills {
+  border-color: #27ae60;
+  background-color: #d6f6e3;
+}
+
+/* Blue Section */
+.experience{
+  border-color: #6d96d4;
+  background-color: #e4edfb;
+}
+
+/* Muted Purple Section */
+.leadership {
+  border-color: #a44db7;
+  background-color: #e3d0f9;
+}
+
+/* Pastel Pink Section */
+.comminication {
+  border-color: #f39c12;
+  background-color: #fdf1e3;
 }
