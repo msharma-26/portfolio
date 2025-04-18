@@ -17,7 +17,7 @@ console.log('IT’S ALIVE!');
 let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
-    {url: 'contact/', title: "Contact"}
+    {url: 'contact/', title: "Contact"},
     {url: 'resume/', title: 'Resume'}
   ];
 
