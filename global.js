@@ -26,7 +26,7 @@ document.body.prepend(nav);
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"                  // Local server
-  : "/website/";         // Production or GitHub Pages-like path
+  : "/profile/";         // Production or GitHub Pages-like path
 
 for (let p of pages) {
   let url = p.url;
