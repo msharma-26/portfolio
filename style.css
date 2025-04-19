@@ -1,6 +1,40 @@
 :root {
   --color-accent: oklch(0.7 0.1727 295.94);
   accent-color: var(--color-accent);
+  --border-color: oklch(50% 10% 200 / 40%);
+  color-scheme: light dark;
+
+
+
+  /* Objective */
+  --objective-border: oklch(0.5581 0.274 328.42);
+  --objective-bg: oklch(0.9237 0.063 353.39);
+  --objective-heading: oklch(0.5581 0.274 328.42);
+
+  /* Education */
+  --education-border: oklch(0.6701 0.201 327.92);
+  --education-bg: oklch(0.9249 0.061 339.38);
+  --education-heading: oklch(0.6701 0.201 327.92);
+
+  /* Skills */
+  --skills-border: oklch(0.6249 0.192 148.94);
+  --skills-bg: oklch(0.9368 0.068 161.95);
+  --skills-heading: oklch(0.6249 0.192 148.94);
+
+  /* Experience */
+  --experience-border: oklch(0.6888 0.153 254.99);
+  --experience-bg: oklch(0.9506 0.045 264.39);
+  --experience-heading: oklch(0.6888 0.153 254.99);
+
+  /* Leadership */
+  --leadership-border: oklch(0.5386 0.206 313.36);
+  --leadership-bg: oklch(0.9182 0.063 295.97);
+  --leadership-heading: oklch(0.5386 0.206 313.36);
+
+  /* Communication */
+  --communication-border: oklch(0.6377 0.169 213.11);
+  --communication-bg: oklch(0.9425 0.067 208.23);
+  --communication-heading: oklch(0.6377 0.169 213.11);
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
@@ -51,19 +85,20 @@ nav a {
   }
 
 nav {
+  
     margin-bottom: 5ch;
-    border-bottom: 1px solid oklch(80% 3% 200);
+    border-bottom: var(--border-color);
   }
 
 nav a.current {
-    border-bottom: 0.4em solid oklch(80% 3% 200);
+    border-bottom: var(--border-color)
     padding-bottom: 0.1em;
   }
 
 nav a:hover {
-    border-bottom: 0.4em solid var(--color-accent);
+    border-bottom: 0.4em solid var(--border-color);
     padding-bottom: 0.1em;
-    background-color: oklch(from var(--color-accent) 95% 5% h)
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
   }
 
 form {
@@ -126,7 +161,6 @@ section h2 {
 /*want to make color coded vertical bar for resume section */
 
 .resume {
-  background-color: white;
   border-color:#cb2a75; 
   padding: 1em 1em 1em 1.5em;
   border-left: 4px solid;
@@ -182,22 +216,22 @@ section h2 {
 
 /* Pink Section */
 .objective {
-  border-color: #cb2a75;
-  background-color: #f2e0eb;
+  border-color: color-mix(in oklch, var(--objective-border), canvas 85%);
+  background-color: color-mix(in oklch, var(--objective-bg), canvas 85%);
 }
 
 .objective h2 {
-  color: #cb2a75;
+  color: color-mix(in oklch, var(--objective-heading), canvas 85%);
 }
 
 /* Light Purple Section */
 .education {
-  border-color: #d46db7;
-  background-color: #f4d6ea;
+  border-color: color-mix(in oklch, var(--education-border), canvas 85%);
+  background-color:color-mix(in oklch, var(--education-bg), canvas 85%);
 }
 
 .education h2 {
-  color: #d46db7;
+  color: color-mix(in oklch, var(--education-heading), canvas 85%);
 }
 
 /* Green Section */
@@ -238,4 +272,12 @@ section h2 {
 
 .communication h2 {
   color: #18a0bf; 
+}
+
+label.color-scheme{
+  position: absolute;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+
 }
