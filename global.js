@@ -78,9 +78,14 @@ for (let p of pages) {
     a.classList.add('current');
   }
 
-  if (a.host !== location.host){
-    a.target = "_blank"
-  }
+  let absolute = new URL(url, location.origin);
+
+  a.href = absolute.href;
+  a.textContent = title;
+
+  if (absolute.host !== location.host) {
+  a.target = "_blank";
+  } 
 
 
   li.appendChild(a);
