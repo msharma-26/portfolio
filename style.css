@@ -217,7 +217,7 @@ section h2 {
 /* Pink Section */
 .objective {
   border-color: var(--objective-border);
-  background-color: var(--objective-bg);
+  /* background-color: var(--objective-bg); */
 }
 
 .objective h2 {
@@ -227,7 +227,7 @@ section h2 {
 /* Light Purple Section */
 .education {
   border-color: var(--education-border);
-  background-color: var(--education-bg);
+  /* background-color: var(--education-bg); */
 }
 
 .education h2 {
@@ -237,7 +237,7 @@ section h2 {
 /* Green Section */
 .skills {
   border-color: #27ae60;
-  background-color: #d6f6e3;
+  /* background-color: #d6f6e3; */
 }
 
 .skills h2 {
@@ -247,7 +247,7 @@ section h2 {
 /* Blue Section */
 .experience{
   border-color: #6d96d4;
-  background-color: #e4edfb;
+  /* background-color: #e4edfb; */
 }
 
 .experience h2 {
@@ -257,7 +257,7 @@ section h2 {
 /* Muted Purple Section */
 .leadership {
   border-color: #a44db7;
-  background-color: #e3d0f9;
+  /* background-color: #e3d0f9; */
 }
 
 .leadership h2 {
@@ -267,7 +267,7 @@ section h2 {
 /* Pastel Pink Section */
 .communication {
   border-color: #18a0bf;
-  background-color: #d3f1f7;
+  /* background-color: #d3f1f7; */
 }
 
 .communication h2 {
