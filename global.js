@@ -54,7 +54,7 @@ nav.appendChild(ul);
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"                  // Local server
-  : "/porftolio/";        // Name of repo
+  : "/portfolio/";        // Name of repo
 
 for (let p of pages) {
   let url = p.url;

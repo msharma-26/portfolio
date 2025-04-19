@@ -216,22 +216,22 @@ section h2 {
 
 /* Pink Section */
 .objective {
-  border-color: color-mix(in oklch, var(--objective-border), canvas 85%);
-  background-color: color-mix(in oklch, var(--objective-bg), canvas 85%);
+  border-color: var(--objective-border);
+  background-color: var(--objective-bg);
 }
 
 .objective h2 {
-  color: color-mix(in oklch, var(--objective-heading), canvas 85%);
+  color: var(--objective-heading);
 }
 
 /* Light Purple Section */
 .education {
-  border-color: color-mix(in oklch, var(--education-border), canvas 85%);
-  background-color:color-mix(in oklch, var(--education-bg), canvas 85%);
+  border-color: var(--education-border);
+  background-color: var(--education-bg);
 }
 
 .education h2 {
-  color: color-mix(in oklch, var(--education-heading), canvas 85%);
+  color: var(--education-heading);
 }
 
 /* Green Section */
