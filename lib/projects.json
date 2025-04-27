@@ -1,13 +1,13 @@
 [
     {
         "title": "Cancer and Food Avaliability Analysis",
-        "image": "../image/cancer_proj.jpg",
+        "image": "../image/cancer.jpg",
         "year": 2025,
         "description": "We did an exploratory analysis of cancer rates and food avaliability (a proxy for food consumption) in the US in search of a relationship between the two."
     },
     {
         "title": "Recipe and Ratings Analysis",
-        "image": "../image/recipe_analysis.jpg",
+        "image": "../image/recipe.jpg",
         "year": 2024,
         "description": "We did an analysis on how the cooktime of a recipe impacted its rating, from over 1000 recipes from Food.com, and built a classifier to predict the amount of time a given recipe would take."
     },
