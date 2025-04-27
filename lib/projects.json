@@ -8,56 +8,67 @@
     {
         "title": "Recipe and Ratings Analysis",
         "image": "../image/recipe_analysis.jpg",
+        "year": 2024,
         "description": "We did an analysis on how the cooktime of a recipe impacted its rating, from over 1000 recipes from Food.com, and built a classifier to predict the amount of time a given recipe would take."
     },
     {
         "title": "Quia voluptas harum laborum?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Cupiditate consequuntur ipsum, atque quo voluptatem error et consectetur obcaecati amet necessitatibus quisquam. Amet cum optio necessitatibus reiciendis maxime consectetur numquam velit, placeat voluptatem voluptates blanditiis, accusamus totam quibusdam sunt."
     },
     {
         "title": "Voluptates tempora voluptatum error.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Qui non voluptatum consequatur nobis? Dolore officiis hic voluptates explicabo ullam itaque recusandae vero fugit sit minima quos molestias dolorum enim, blanditiis rerum neque accusantium repudiandae consequatur quaerat veniam porro!"
     },
     {
         "title": "Illum distinctio delectus quos.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Distinctio dolor sapiente nostrum quis nemo fugiat quaerat iusto nulla aperiam quos reprehenderit excepturi nesciunt quam, accusantium aliquid iste ab modi veniam, enim praesentium animi. Reiciendis enim voluptate autem nihil."
     },
     {
         "title": "Facilis, voluptatibus eveniet! Dicta.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Eius alias quas nesciunt quod aspernatur quis expedita tenetur molestiae doloremque harum. Sit necessitatibus totam ea quod tenetur deserunt, nobis eum nulla impedit dicta distinctio nam quasi, voluptatem quia consequuntur?"
     },
     {
         "title": "Ipsam laborum doloremque asperiores!",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Exercitationem nisi itaque, facilis perspiciatis autem soluta rem ullam voluptatum iure, impedit quibusdam quae quaerat amet ea fuga vitae dolorum sit ipsa quo quod dolor aspernatur? Perspiciatis mollitia quam necessitatibus."
     },
     {
         "title": "Ut, est nam! Totam.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Earum, aliquam sunt, asperiores eveniet itaque cumque molestiae dicta natus, saepe accusamus quibusdam repellendus nihil dolor repudiandae. Explicabo voluptatibus recusandae eaque asperiores, animi consectetur ad dignissimos ab officia, totam laboriosam."
     },
     {
         "title": "Neque ullam eaque exercitationem?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Id iure corrupti sequi, possimus nam soluta placeat accusantium explicabo cum facilis consequatur rem recusandae earum expedita, autem, aut iusto. Quam cum id quo animi est dolore explicabo vero perferendis."
     },
     {
         "title": "Fuga sint vero vitae?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Modi quaerat ut consectetur dolore maxime at obcaecati laudantium a! Architecto inventore voluptatum et enim velit ratione. Odit itaque nisi, quibusdam, illo perferendis repellat inventore voluptates praesentium, quae qui cumque?"
     },
     {
         "title": "Velit aperiam asperiores iste.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Laudantium, aperiam ullam. Distinctio quidem dolore beatae blanditiis? Consequuntur officiis blanditiis vero modi dolore quae ea earum minima excepturi dignissimos, eum dolor asperiores, optio ipsum neque sint sed. Maiores, consequatur?"
     },
     {
         "title": "Hic distinctio nisi consequuntur!",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Assumenda corrupti culpa nam est ratione, ullam quaerat minima aliquid provident saepe neque nihil atque corporis impedit fuga iusto. In reiciendis ex nulla consequuntur? Vitae porro beatae tempora officiis cum?"
     }
 ]
