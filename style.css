@@ -153,6 +153,11 @@ article h2 {
   margin: 0;
 }
 
+article img {
+  width: 100%; /* Make the image take up the full width of its grid cell */
+  height: auto; /* Maintain the image's aspect ratio */
+  object-fit: cover; /* Make sure the image fits inside the cell without distortion */
+}
 
 section h2 {
   color: #cb2a75;
@@ -280,4 +285,41 @@ label.color-scheme{
   font-size: 80%;
   font-family: inherit;
 
+}
+
+#profileStats {
+  width: 100%;
+  padding: 10px;
+  font-family: inherit;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  flex-wrap: wrap; /* Allow items to wrap if the container is too narrow */
+}
+
+/* lab 4 */
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+dt, dd {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 20px; /* Add horizontal spacing between items */
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  font-size: 16px;
 }

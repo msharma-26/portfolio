@@ -141,4 +141,56 @@ select.addEventListener('input', function (event) {
   console.log('color scheme changed to', selectedScheme);
 });
 
-// test commit
+export async function fetchJSON(url) {
+  try {
+    // Fetch the JSON file from the given URL
+    const response = await fetch(url);
+    console.log(response);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch projects: ${response.statusText}`);
+    }
+    const data = await response.json();
+    console.log("testing testing")
+    return data;
+  } catch (error) {
+    console.error('Error fetching or parsing JSON data:', error);
+  }
+}
+
+export function renderProjects(projects, containerElement, headingLevel) {
+  containerElement.innerHTML = '';
+  for (const project of projects){
+    const article = document.createElement('article');
+    const heading = document.createElement(headingLevel);
+    heading.textContent = project.title;
+    
+    const img = document.createElement('img');
+    img.src = project.image;
+    img.alt = project.title;
+
+    const description = document.createElement('p');
+    description.textContent = project.description;
+
+    article.appendChild(heading);
+    article.appendChild(img);
+    article.appendChild(description);
+
+  containerElement.appendChild(article);
+  }
+}
+
+fetch('https://api.github.com/rate_limit')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data); // Logs the rate limit information
+  })
+  .catch(error => {
+    console.error('Error fetching rate limit:', error);
+  });
+
+
+export async function fetchGitHubData(username) {
+  console.log("making request to github")
+  return fetchJSON(`https://api.github.com/users/${username}`);
+ 
+}
