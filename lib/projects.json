@@ -1,13 +1,14 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
+        "title": "Cancer and Food Avaliability Analysis",
         "image": "../image/cancer_proj.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis quod eveniet id eaque tempore debitis in pariatur provident, unde sint a, dolorum temporibus, facere maiores ratione ea nobis maxime?"
+        "year": 2025,
+        "description": "We did an exploratory analysis of cancer rates and food avaliability (a proxy for food consumption) in the US in search of a relationship between the two."
     },
     {
-        "title": "Reprehenderit molestias tenetur cupiditate!",
+        "title": "Recipe and Ratings Analysis",
         "image": "../image/recipe_analysis.jpg",
-        "description": "Impedit mollitia expedita tempora possimus sunt? Eos eligendi voluptatibus ducimus magnam, error obcaecati placeat repellendus fugiat porro. Accusamus aperiam itaque assumenda quis dignissimos molestias, quo quas ea similique! Adipisci, assumenda."
+        "description": "We did an analysis on how the cooktime of a recipe impacted its rating, from over 1000 recipes from Food.com, and built a classifier to predict the amount of time a given recipe would take."
     },
     {
         "title": "Quia voluptas harum laborum?",

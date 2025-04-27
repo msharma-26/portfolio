@@ -44,7 +44,8 @@ let pages = [
   { url: '', title: 'Home' },
   { url: 'projects/', title: 'Projects' },
   { url: 'contact/', title: 'Contact' },
-  { url: 'resume/', title: 'Resume' }
+  { url: 'resume/', title: 'Resume' },
+  {url: "https://github.com/msharma-26", title: "GitHub"}
 ];
 
 let nav = document.createElement('nav');
@@ -177,7 +178,13 @@ export function renderProjects(projects, containerElement, headingLevel) {
 
   containerElement.appendChild(article);
   }
-}
+
+  const countElement = document.querySelector('#project-count');
+  if (countElement) {
+    countElement.textContent = projects.length;
+} }
+
+
 
 fetch('https://api.github.com/rate_limit')
   .then(response => response.json())
