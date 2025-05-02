@@ -323,3 +323,48 @@ dt {
 dd {
   font-size: 16px;
 }
+ /* lab 5  */
+ #projects-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr)); /* responsive grid */
+  gap: 1em; /* larger gap between grid items */
+  padding: 1em;
+  margin: 1em auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-width: 50%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: var(--color);
+  place-items: center;
+  flex: 1;
+}
+
+/* Each list item */
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em; /* smaller gap inside items */
+  font-size: 0.9em;
+}
+
+/* The swatch */
+.legend-item .swatch {
+  width: 1em;
+  aspect-ratio: -1 / 1;             /* Makes it square */
+  background-color: var(--color); /* Use the CSS variable */
+  display: inline-block;          /* Required for width/height */
+  border-radius: 4px;             /* Slightly rounded corners */
+  flex-shrink: 0;
+}
+
+.legcontainer {
+  display: flex;
+}

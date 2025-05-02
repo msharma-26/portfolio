@@ -172,9 +172,13 @@ export function renderProjects(projects, containerElement, headingLevel) {
     const description = document.createElement('p');
     description.textContent = project.description;
 
+    const yr = document.createElement('p');
+    yr.textContent = project.year;
+
     article.appendChild(heading);
     article.appendChild(img);
     article.appendChild(description);
+    description.appendChild(yr);
 
   containerElement.appendChild(article);
   }
