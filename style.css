@@ -348,17 +348,18 @@ dd {
 }
 
 /* Each list item */
-.legend-item {
+.legend_entry {
   display: flex;
   align-items: center;
   gap: 0.5em; /* smaller gap inside items */
   font-size: 0.9em;
+  color: var(--color);
 }
 
 /* The swatch */
-.legend-item .swatch {
+.legend_entry .swatch {
   width: 1em;
-  aspect-ratio: -1 / 1;             /* Makes it square */
+  aspect-ratio: 1 / 1;             /* Makes it square */
   background-color: var(--color); /* Use the CSS variable */
   display: inline-block;          /* Required for width/height */
   border-radius: 4px;             /* Slightly rounded corners */
@@ -367,6 +368,18 @@ dd {
 
 .legcontainer {
   display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.top_ele {
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+.search_container {
+  padding: 10px;
+  text-align: center;
 }
 
 /* step 5 */
@@ -383,5 +396,10 @@ path {
 
   &:is(path) {
     fill: var(--color);
+  }
+
+  &:is(li){
+    color: var(--color);
+
   }
 }
