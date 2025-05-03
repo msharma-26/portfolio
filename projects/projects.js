@@ -122,9 +122,52 @@ function renderPieChart(projectsGiven) {
       .attr('class', 'legend_entry') // set the style attribute while passing in parameters
       .html(`<span class="swatch"></span> ${d.label} <em>(${d.value})</em>`); // set the inner html of <li>
   });
+
+
+  let svg = d3.select('svg'); // wraps the SVG object that is the pie chart that we are rendering
+svg.selectAll('path').remove(); // gets ride of all the path elements
+
+newArcs.forEach((arc, i) => {
+  svg
+    .append('path')
+    .attr('d', arc)
+    .attr('fill', colors(i))
+    .on('click', () => {
+      selectedIndex = selectedIndex === i ? -1 : i;
+
+      svg
+        .selectAll('path')
+        .attr('class', (_, i) => {
+          if (selectedIndex === -1) {
+            return 'pie-slice'; // Reset all paths
+          }
+          return (i === selectedIndex) ? 'selected' : 'dimmed';
+        });
+
+        legend
+        .selectAll('li')
+        .attr('class', (_, idx) => {
+          if (idx === selectedIndex) {
+            return 'legend_entry'; // Reset all legend items
+          }
+          return (idx === selectedIndex) ? 'selected' : 'dimmed';
+        });
+        if (selectedIndex === -1) {
+          renderProjects(projects, projectsContainer, 'h2');
+        } else {
+          const selectedYear = newData[selectedIndex].label;
+          const filteredProjects = projects.filter(p => p.year === selectedYear);
+          renderProjects(filteredProjects, projectsContainer, 'h2');
+        }
+
+    });
+});
+
+
   
 }
 // Call this function on page load
+let selectedIndex = -1;
 renderPieChart(projects);
 
 searchInput.addEventListener('change', (event) => {
@@ -139,3 +182,6 @@ searchInput.addEventListener('change', (event) => {
   renderProjects(filteredProjects, projectsContainer, 'h2');
   renderPieChart(filteredProjects);
 });
+
+
+
