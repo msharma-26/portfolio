@@ -411,7 +411,7 @@ dl.info{
   margin: 0;
   transition-duration: 500ms;
   transition-property: opacity, visibility;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(217, 198, 242, 0.85);
   box-shadow: #a44db7;
 }
 
@@ -428,7 +428,7 @@ dd.info {
   position: fixed;
   top: 1em;
   left: 1em;
-  background-color: rgba(0, 0, 0, 0.75); /* Dark background with some transparency */
+  /* background-color: rgba(0, 0, 0, 0.75); Dark background with some transparency */
   padding: 0.5em;
   border-radius: 4px;
   font-size: 14px; /* Adjust font size for tooltip */
@@ -449,6 +449,11 @@ dl.info[hidden]:not(:hover, :focus-within) {
   visibility: hidden;
 }
 
+a#commit-link {
+  color:#cb2a75;
+}
+
 circle.selected {
   fill: #ff6b6b;
 }
+
