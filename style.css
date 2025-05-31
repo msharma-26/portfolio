@@ -489,9 +489,31 @@ circle.selected {
 .loc {
   flex: 0 0 0.5em;
   aspect-ratio: 1 / 1;
-  background: violet;
+  background: var(--color);
   border-radius: 50%;
   display: inline-block;  /* just in case it's inherited as block */
+}
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
 }
 
 
