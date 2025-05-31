@@ -393,7 +393,7 @@ slider.on('input', onTimeSliderChange);
 // Initialize on page load
 onTimeSliderChange();
 
-
+commits.sort((a, b) => a.datetime - b.datetime);
 d3.select('#scatter-story')
   .selectAll('.step')
   .data(commits)
